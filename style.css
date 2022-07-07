@@ -1,35 +1,19 @@
-*
+body {
+  background-color: #f4f4f4;
+  color: #555555;
 
-body{
-    background: color #676668;
-    color:grey;
+  font: normal 20px Arial, Helvetica, sans-serif;
 
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16;
-    margin: 0%;
-    
+  line-height: 1.4em;
+  margin: 0;
 }
 
-
-.box-1{
-    background-color:grey;
-    color: white;
-text-align: center;
-    border: 10px rgb(46, 45, 45) solid;
-    
-    margin: 30px 300px;
-    
+.container{
+    width: 500px;
+    margin: auto;
 }
 
-.type-of-rep{
-    background-color: grey;
-    color: whitesmoke;
-    border: 10px #ccc solid;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.type-of-rep h2{
-    text-align: center;
-    font-size: 25px;
+.box-1 {
+   background: color #333;
+   color: #fff;;
 }
