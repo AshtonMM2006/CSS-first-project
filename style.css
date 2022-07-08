@@ -1,19 +1,151 @@
 body {
   background-color: #f4f4f4;
-  color: #555555;
+  color: 555555;
 
-  font: normal 20px Arial, Helvetica, sans-serif;
+  font: normal 18px arial, helvetica, sans-serif;
 
-  line-height: 1.4em;
-  margin: 0;
+  line-height: 25px;
+  margin-top: 10;
 }
 
-.container{
-    width: 500px;
-    margin: auto;
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  background-color: red;
+  color: white;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
 
 .box-1 {
-   background: color #333;
-   color: #fff;;
+  background-color: #333;
+  color: #f4f4f4;
+
+  border: 5px red dotted;
+
+  padding: 20px;
+
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box-1 h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  letter-spacing: 12px;
+}
+
+.box-1 p {
+  text-align: center;
+}
+
+.box-2 {
+  border: 8px grey solid;
+  padding: 30px;
+  padding-bottom: 50px;
+  margin-top: 25px;
+}
+
+.box-2 h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.categories {
+  border: 5px lightgray double;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.categories li {
+  padding: 5px;
+  border-bottom: dashed 1px black;
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float:left;
+  width: 33.3%;
+  border: 1px solid gray;
+  padding:10px;
+  box-sizing: border-box;
+ 
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box{
+  border: 5px solid black;
+  margin-top: 30px;
+  position:relative
+  b
+}
+
+.fix-me{
+  position: fixed;
+  top: 400px;
+  left: 0px;
+}
+
+.mylist li:first-child{
+  background-color: red;
+
+}
+
+.mylist li:last-child{
+  background-color: red;
+
+}
+
+.mylist li:nth-child(3){
+color: green;
 }
